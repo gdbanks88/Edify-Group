@@ -6,7 +6,8 @@ import {
   // etc.
 } from 'react-router-dom'
 import '../CSS/App.css';
-// import LoginForm from './login-form.js';
+import BeerTap from './BeerTap.js';
+import ComponentFeature from './CodeSamples/Practice-Component-WillMount.js'
 // import MenuBar from './Menu-Bar/menu-bar.js';
 
 // import Home from './Home/home.js';
@@ -62,17 +63,17 @@ class App extends Component {
                         <Link to="/profile">Profile</Link>
                     </li>
                     <li style={styles.lastNavBox}>
-                        <Link to="/options"><img style={styles.optionImage} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnSd44ccnyNhe8Kio-gMr2tplxZMNp5ZB2uJfTFdl_cqdhp3F7" alt="Options" /></Link>
+                    <Link to="/options"><img style={styles.optionImage} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnSd44ccnyNhe8Kio-gMr2tplxZMNp5ZB2uJfTFdl_cqdhp3F7" alt="Options" /></Link>
                     </li>
                 </ul> 
 
                 <hr />
 
-                <Route exact path="/" component={Home} />
+                <Route exact path="/" component={ComponentFeature} />
                 <Route path="/categories" component={Categories} />
                 <Route path="/mycourses" component={MyCourses} />
                 <Route path="/profile" component={Profile} />
-                <Route path="/options" component={Options} />
+                <Route path="/options" component={BeerTap} />
             </div>
         </Router>
     )
@@ -114,10 +115,10 @@ const Profile = () =>(
   </div>
 );
 
-const Options = () =>(
-  <div> 
-      <h2>Profile options coming soon!</h2>
-  </div>
-);
+// const Options = () =>(
+//   <div> 
+//       {/* <h2>Profile options coming soon!</h2> */}
+//   </div>
+// );
 
 export default App;
