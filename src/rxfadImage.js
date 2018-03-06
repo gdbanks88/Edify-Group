@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
+
+import CrossfadeImage from './rxfadImage.js';
+
 export default class CrossfadeImage extends Component {
   constructor(props) {
     super(props);

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import ReactDom from 'react-dom';
-import CrossfadeImage from './rxfadImage.js';
+
 
 
 import logo from './logo.svg';
@@ -77,14 +77,11 @@ class App extends Component {
           This is a separation line.
         </div>
           <div id="banner-photo">
-            <CrossfadeImage 
-            src={images[this.state.imageIndex]}
-            className="top-photo"
-            duration = {2000}
-            timingFunction = {"ease-out"}
-            />
+           <img class="bottom" src={ban5} alt="banner" />
+           <img class="top" src={banner319} alt="banner" /> 
 
-            <h2 id="banner-text" > Keep track of your courses from anywhere </h2> 
+            <p id="banner-text" > Keep track of your courses </p>
+          <p id="banner-text2" >  from anywhere </p> 
           </div> 
 
         <div id="below-banner-photo" >
