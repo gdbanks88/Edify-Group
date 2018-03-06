@@ -1,13 +1,16 @@
 .App {
+  display: block;
   text-align: left;
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   border: 0;
+  width: 100%;
+  height: 500px;
 }
 
 #contain-header {
-  box-sizing: border-box;
+
   top: 0em;
   height: 3em;
   position: fixed;
@@ -83,7 +86,6 @@ header {
 /* Style the links inside the navigation bar */
 
  a {
-
   padding: 4px 3px;
   text-decoration: none;
 }
@@ -97,8 +99,7 @@ a:hover {
 /* Style the "active" element to highlight the current page */
 
 a.active {
-  background-color: #2196F3;
-  color: white;
+  color: white;;
 }
 
 
@@ -124,10 +125,10 @@ a.active {
   }
 }
 
-
-
 #top-of-photo {
+  display: block;
   height: 3em;
+  width: 100%;
   visibility: hidden;
 }
 
@@ -136,7 +137,7 @@ a.active {
   height: 100%;
   width: 100%;
   min-width: 100%;
-  position: relative;
+  position: fixed;
   background-color:floralwhite;
   background-size: cover;
   z-index: 1;
@@ -145,8 +146,8 @@ a.active {
 #banner-photo img {
   position: absolute;
   left: 0;
-  height: 500px;
-  width: 1000px;
+  height: 100%;
+  width: 100%;
   transition: opacity 1s ease-in-out;
 }
 
@@ -166,8 +167,6 @@ a.active {
 }
 
 
-
-
 #banner-text {
   position: fixed;
   margin: 11em 20px;
@@ -179,7 +178,7 @@ a.active {
   color: white;
   letter-spacing: 5px;
   text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
-  z-index: 5;
+  z-index: 3;
 }
 
 #banner-text2 {
@@ -194,34 +193,40 @@ a.active {
   color: white;
   letter-spacing: 5px;
   text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
-  z-index: 5;
+  z-index: 3;
 }
 
 #below-banner-photo {
   width: 100%;
   position: relative;
-  top: 400px;
+  top: 480px;
   background: #ebebeb;
-  height: 810px;
+  height: 100%;
   margin-bottom: 3px;
-  -moz-box-shadow: 0 3px 10px 2px gray;
-  box-shadow: 0 3px 10px 2px gray;
+  -moz-box-shadow: 0 3px 10px 0 gray;
+  box-shadow: 0 3px 10px 0 gray;
   z-index: 5;
 }
 
-#landing-footer {
+#landing-footer1 {
   left: 0em;
   position: absolute;
   bottom: 0em;
   width: 100%;
-  height: 200px;
+  height: 18%;
+  display: flex;
   background-color: dimgray;
   color: darkgray;
   text-align: center;
+  -moz-box-shadow: 0 0 10px 2px darkgray;
+  box-shadow: 0 0 10px 2px darkgray;
 
-  -moz-box-shadow: 0 0 10px 2px black;
-  box-shadow: 0 0 10px 2px black;
-  z-index: 10;
+}
+
+#row-of-boxes {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
 }
 
 li a {
@@ -233,13 +238,24 @@ li a {
 
 .footings {
   left: .6em;
-  height: 200px;
-  bottom: 0em;
+
   display: flex;
+  width: 4em;
   flex-direction: column;
   align-items: left;
   flex-wrap: nowrap;
   color: rgb(108, 103, 103);  
+}
+
+.footings2 {
+  left: 1.9em;
+
+  width: 6em;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  flex-wrap: nowrap;
+  color: rgb(108, 103, 103);
 }
 
 article {

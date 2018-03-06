@@ -73,12 +73,12 @@ class App extends Component {
             <img src={man2} className="profile" alt="profile"/>
           </header> 
         </section>
-        <div id="top-of-photo">
+        <section id="top-of-photo">
           This is a separation line.
-        </div>
+        </section>
           <div id="banner-photo">
-           <img class="bottom" src={ban5} alt="banner" />
-           <img class="top" src={banner319} alt="banner" /> 
+           <img className="bottom" src={ban5} alt="banner" />
+           <img className="top" src={banner319} alt="banner" /> 
 
             <p id="banner-text" > Keep track of your courses </p>
           <p id="banner-text2" >  from anywhere </p> 
@@ -103,8 +103,8 @@ class App extends Component {
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.Ducimus a animi, odit accusamus totam voluptatem soluta.Cupiditate minima, molestiae ut in consequuntur, reiciendis alias, quidem tempore exercitationem eum fugiat ea!
               </p> 
             </article>
-            <footer id="landing-footer">
-              <div>
+            <section id="landing-footer1">
+              <div id="row-of-boxes">
                 <ul className="footings">
                   <div>
                     <li>
@@ -121,6 +121,8 @@ class App extends Component {
                       <a href="#faqs">FAQS</a>
                     </li>
                   </div>
+                </ul> 
+                <ul className="footings2">
                   <div>
                     <li>
                       <a href="#locations">Locations</a>
@@ -138,7 +140,7 @@ class App extends Component {
                   </div>
                 </ul>
               </div>
-            </footer>
+            </section>
           </section> 
         </div> 
       </section>
