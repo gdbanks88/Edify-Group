@@ -7,11 +7,9 @@ import {
 } from 'react-router-dom'
 import '../CSS/App.css';
 import BeerTap from './BeerTap.js';
-import ComponentFeature from './CodeSamples/Practice-Component-WillMount.js'
-// import MenuBar from './Menu-Bar/menu-bar.js';
-
-// import Home from './Home/home.js';
-// import Practice from './Practice-Component.js';
+import Spiderman from './spiderman.js'
+// import Wrapper from './CodeSamples/Practice-Component-WillMount.js';
+import Home from './Home/home.js';
 
 const styles = {
   navBar: {
@@ -57,7 +55,7 @@ class App extends Component {
                         <Link to="/mycourses">My Courses</Link>
                     </li>
                     <li>
-                      <input type="text" /><button>Search</button>
+                      <input type="text" /><button id="Search-button">Search</button>
                     </li>
                     <li> 
                         <Link to="/profile">Profile</Link>
@@ -69,22 +67,16 @@ class App extends Component {
 
                 <hr />
 
-                <Route exact path="/" component={ComponentFeature} />
+                <Route exact path="/" component={Home} />
                 <Route path="/categories" component={Categories} />
                 <Route path="/mycourses" component={MyCourses} />
-                <Route path="/profile" component={Profile} />
+                <Route path="/profile" component={Spiderman} />
                 <Route path="/options" component={BeerTap} />
             </div>
         </Router>
     )
   }
 }
-
-const Home = () => (
-    <div>
-        <h2>Home</h2>
-    </div>
-);
 
 const Categories = () =>(
     <div> 
@@ -109,16 +101,6 @@ const MyCourses = ( {match}) =>(
     </div>
 );
      
-const Profile = () =>(
-  <div> 
-      <h2>User profile coming soon!</h2>
-  </div>
-);
 
-// const Options = () =>(
-//   <div> 
-//       {/* <h2>Profile options coming soon!</h2> */}
-//   </div>
-// );
 
 export default App;
