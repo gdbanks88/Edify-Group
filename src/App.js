@@ -48,18 +48,26 @@ class App extends Component {
             <img src={logo} className="App-logo" alt="logo"/>
 
             <div className="flex-container">
-                <div id="ed">
-                    <a className="active" href="#edify">Edify</a>
+                <div className="ed">
+                    <a className="active" href="#edify">EDIFY</a>
                 </div>
+                <div id="ph1" > 2</div>
+                <div className="categories" >
+                    <a className="active" href="#categories">Categories</a>
+                </div>
+              <div id="ph1" > 2</div>
+
+              <div className="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search.." name="search" />
+
+                </form>
+              </div>
+              <div id="ph1" >2</div>
                 <div id="login">
                     <a href="#login">Login/Register</a>
                 </div>
-                <div id="search-container">
-                  <form action="/action_page.php">
-                    <input type="text" placeholder="Search.." name="search" />
-                    <button type="submit"><i className="fa fa-search"></i></button>
-                  </form>
-                </div>
+                
             </div> 
 
             <img src={man2} className="profile" alt="profile"/>
@@ -76,7 +84,7 @@ class App extends Component {
             timingFunction = {"ease-out"}
             />
 
-            <h2 id="banner-text" > Edify is the best cross between schoology and udemy and slack ever. </h2> 
+            <h2 id="banner-text" > Keep track of your courses from anywhere </h2> 
           </div> 
 
         <div id="below-banner-photo" >
@@ -97,44 +105,43 @@ class App extends Component {
               <p>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.Ducimus a animi, odit accusamus totam voluptatem soluta.Cupiditate minima, molestiae ut in consequuntur, reiciendis alias, quidem tempore exercitationem eum fugiat ea!
               </p> 
-            </article> 
+            </article>
             <footer id="landing-footer">
               <div>
-				<ul className="footings">
-					<li>
-						<a href="#login">Sign in</a>
-					</li>
-					<li>
-						<a href="#subscribe">Subscribe</a>
-					</li>
-					<li>
-						<a href="#faqs">FAQS</a>
-					</li>
-					<li>
-						<a href="#locations">Locations</a>
-					</li>
-					<li>
-						<a href="#contact">Contact us</a>
-					</li>
-					<li>
-						<a href="#terms">Terms</a>
-					</li>
-				</ul>
+                <ul className="footings">
+                  <div>
+                    <li>
+                      <a href="#login">Sign in</a>
+                    </li>
+                  </div>
+                  <div>
+                    <li>
+                      <a href="#subscribe">Subscribe</a>
+                    </li>
+                  </div>
+                  <div>
+                    <li>
+                      <a href="#faqs">FAQS</a>
+                    </li>
+                  </div>
+                  <div>
+                    <li>
+                      <a href="#locations">Locations</a>
+                    </li>
+                  </div>
+                  <div>
+                    <li>
+                      <a href="#contact">Contact us</a>
+                    </li>
+                  </div>
+                  <div>
+                    <li>
+                      <a href="#terms">Terms</a>
+                    </li>
+                  </div>
+                </ul>
               </div>
-              <div>
-
-              </div>
-              <div>
-
-              </div>
-              <div>
-
-              </div>
-              <div>
-
-              </div>
-      
-        </footer>
+            </footer>
           </section> 
         </div> 
       </section>
