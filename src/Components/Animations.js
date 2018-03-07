@@ -4,7 +4,8 @@ import {
   Route,
   Link
   // etc.
-} from 'react-router-dom'
+} from 'react-router-dom';
+import Animations from './Components/Animations';
 import '../CSS/animations.css';
 import BeerTap from './BeerTap.js';
 import Spiderman from './spiderman.js'
