@@ -64,7 +64,7 @@ class MenuBar extends Component {
         let txt = this.state.txt
         return(
             <div style={styles.container}>
-                <img src='../../images/coffee.jpg' alt='icon' style={styles.icon} onClick={this.onClick}/>
+                <img src='../images/coffee.jpg' alt='icon' style={styles.icon} onClick={this.onClick}/>
                 <Courses />
                 <input type="text" onChange={this.update} />
                 <div style={styles.categories}> Categories</div> 
