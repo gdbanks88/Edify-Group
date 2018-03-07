@@ -9,13 +9,13 @@ import banner319 from './banner319.png';
 import banner219 from './banner219.png';
 import ban4 from './ban4.png';
 import ban5 from './ban5.png';
-import './App.css';
+import './Landing.css';
 
 const images = [
     banner319, banner219, ban4, ban5
 ];
 
-class App extends Component {
+class Landing extends Component {
   constructor(props){
     super(props);
     this.state = {
@@ -149,4 +149,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Landing;
