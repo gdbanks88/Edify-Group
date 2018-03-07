@@ -5,7 +5,7 @@ import {
   Link
   // etc.
 } from 'react-router-dom'
-import '../CSS/App.css';
+import '../CSS/animations.css';
 import BeerTap from './BeerTap.js';
 import Spiderman from './spiderman.js'
 // import Wrapper from './CodeSamples/Practice-Component-WillMount.js';
@@ -39,7 +39,7 @@ const styles = {
 }
 
 
-class App extends Component {
+class Animations extends Component {
     render() {
       return (
         <Router>
@@ -103,4 +103,4 @@ const MyCourses = ( {match}) =>(
      
 
 
-export default App;
+export default Animations;
