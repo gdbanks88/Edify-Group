@@ -15,6 +15,9 @@ const images = [
     banner319, banner219, ban4, ban5
 ];
 
+const isMobile = window.innerWidth <= 500;
+console.log("isMobile = " + isMobile);
+
 class App extends Component {
   constructor(props){
     super(props);
