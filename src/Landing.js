@@ -68,7 +68,7 @@ class Landing extends Component {
               <div id="ph1" >2</div>
                 <div id="login">
                     <Link to="/login">Sign in</Link>
-                    {/* {{<a href="#login">Login/Register</a>}} */}
+                  
                 </div>
                 
             </div> 
@@ -88,7 +88,7 @@ class Landing extends Component {
           </div> 
 
         <div id="below-banner-photo" >
-          <section>
+          <section className="landing-page-content">
             <article>
               <p>
                   Edify is a platform for Students and Teachers to stay in touch and up to date with the coursework. It allows for Teachers to post, edit, and delete all course materials and announcements, and for Students or their Parents to login and reach these materials and announcements.  Oauth is used for secure logins.  

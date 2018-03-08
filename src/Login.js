@@ -43,6 +43,7 @@ class Login extends Component{
         password: password
     }
     console.log(formData + " formdata")
+      this.props.history.push('/Animations');
   }
     render(){
         console.log(this.props.auth);
@@ -68,7 +69,7 @@ class Login extends Component{
                     </FormGroup>
                     <FormGroup>
                         <Col smOffset={2} sm={10}>
-                            <Button bsStyle="success" bsSize="small" type="submit">
+                            <Button onClick="SetStateToGoToAnimationsPage()" bsStyle="success" bsSize="small" type="submit">
                                 Login
                             </Button>
                         </Col>

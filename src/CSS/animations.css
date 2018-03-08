@@ -35,7 +35,7 @@ html {
 }
 
 /* Beer Tap  */
-section {
+.beertap {
     background-color: #FC6E51;
 }
 #action {
@@ -1311,6 +1311,7 @@ phone {
     position: absolute;
     box-shadow: inset 0px 1px 0px rgba(255, 255, 255 0.5);
    -webkit-transform: rotate3d(0, 0, 0, 0);
+   transform: rotate3d(0,0,0,0);
  }
  
  

@@ -201,6 +201,7 @@ a.active {
   position: relative;
   top: 480px;
   background: #ebebeb;
+  background-color: #ebebeb;
   height: 100%;
   margin-bottom: 3px;
   -moz-box-shadow: 0 3px 10px 0 gray;
@@ -261,6 +262,7 @@ li a {
 article {
   padding: 20px;
   margin: 0 auto;
+  font-size: medium;
 }
 
 article p {

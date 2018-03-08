@@ -14,8 +14,8 @@ const IpadMini = () =>(
                 <figcaption className="caption">
                     <nav className="social">
                         <ul>
-                        <li><a href="#" className="mail"></a></li>
-                        <li><a href="#" className="twitter"></a></li>
+                        <li><a href="/" className="mail" type="email"></a></li>
+                        <li><a href="/" className="twitter" type="password"></a></li>
                         </ul>
                     </nav>
                 </figcaption>

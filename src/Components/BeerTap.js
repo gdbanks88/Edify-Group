@@ -4,7 +4,7 @@ class BeerTap extends Component{
     render(){
         return(
             <div>
-                <section>
+                <section className="beertap" >
                     <div id="action">
                         <div id="keg">
                             <div id="pipe-handle"></div>
