@@ -42,15 +42,15 @@ class Login extends Component{
         email: email,
         password: password
     }
-    console.log(formData)
+    console.log(formData + " formdata")
   }
     render(){
-        // console.log(this.props.auth);
+        console.log(this.props.auth);
         return(
             <div className="register-wrapper">
                 <h1 className="text-danger">{this.state.error}</h1>
                 <Form horizontal onSubmit={this.handleSubmit}>
-                    <FormGroup controlId="formHorizontalName" validationState={this.state.nameError}>
+                    <FormGroup className="email" controlId="formHorizontalName" validationState={this.state.nameError}>
                         <Col componentClass={ControlLabel} sm={2}>
                             Email
                         </Col>
@@ -58,7 +58,7 @@ class Login extends Component{
                             <FormControl required="true" type="email" name="email" placeholder="Email" />
                         </Col>
                     </FormGroup>
-                    <FormGroup controlId="formHorizontalEmail" validationState={this.state.emailError}>
+                    <FormGroup className="pswd" controlId="formHorizontalEmail" validationState={this.state.emailError}>
                         <Col componentClass={ControlLabel} sm={2}>
                             Password
                         </Col>
@@ -78,8 +78,6 @@ class Login extends Component{
         )
     }
 }
-
-
 
 // export default Login;
 export default Login;

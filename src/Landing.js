@@ -49,7 +49,6 @@ class Landing extends Component {
         <section id="contain-header">
           <header>
             <img src={logo} className="App-logo" alt="logo"/>
-
             <div className="flex-container">
                 <div className="ed">
                     <a className="active" href="#edify">EDIFY</a>
