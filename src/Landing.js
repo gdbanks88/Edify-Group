@@ -2,14 +2,14 @@ import React, {Component} from 'react';
 import ReactDom from 'react-dom';
 import { Link } from 'react-router-dom';
 
+import logo from './images/logo.svg';
+import man2 from './images/man2.svg';
+import banner319 from './images/banner319.png';
+import banner219 from './images/banner219.png';
+import ban4 from './images/ban4.png';
+import ban5 from './images/ban5.png';
+import './CSS/Landing.css';
 
-import logo from './logo.svg';
-import man2 from './man2.svg';
-import banner319 from './banner319.png';
-import banner219 from './banner219.png';
-import ban4 from './ban4.png';
-import ban5 from './ban5.png';
-import './Landing.css';
 
 const images = [
     banner319, banner219, ban4, ban5
@@ -68,7 +68,8 @@ class Landing extends Component {
               </div>
               <div id="ph1" >2</div>
                 <div id="login">
-                    <a href="#login">Login/Register</a>
+                    <Link to="/login">Sign in</Link>
+                    {/* {{<a href="#login">Login/Register</a>}} */}
                 </div>
                 
             </div> 
@@ -152,4 +153,3 @@ class Landing extends Component {
 }
 
 export default Landing;
-
