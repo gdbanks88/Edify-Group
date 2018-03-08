@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import ReactDom from 'react-dom';
 import { Link } from 'react-router-dom';
 
-
 import logo from './images/logo.svg';
 import man2 from './images/man2.svg';
 import banner319 from './images/banner319.png';
@@ -11,9 +10,13 @@ import ban4 from './images/ban4.png';
 import ban5 from './images/ban5.png';
 import './CSS/Landing.css';
 
+
 const images = [
     banner319, banner219, ban4, ban5
 ];
+
+const isMobile = window.innerWidth <= 500;
+console.log("isMobile = " + isMobile);
 
 class Landing extends Component {
   constructor(props){

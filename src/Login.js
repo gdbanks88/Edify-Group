@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Form, FormGroup, ControlLabel, FormControl, Button, Col} from 'react-bootstrap'
 import './CSS/Login.css';
+
 // this is a container that knows abotu redux so...
 // import {connect} from 'react-redux';
 // we need bindActionCreators because we have redux actions that will dispatch
@@ -82,4 +83,3 @@ class Login extends Component{
 
 // export default Login;
 export default Login;
-
