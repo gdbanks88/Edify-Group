@@ -97,13 +97,13 @@ class Landing extends Component {
                   The future of this app will include a set of forums for everyone to communicate per class or individually. It also will include a video chat area and a screen sharing area so the teacher may teach long distance or help students individually or in groups. It will also include a schedule for the teacher to post all class events, and an individualized calendar and task list for each student to schedule their own work.
               </p> 
               <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.Ducimus a animi, odit accusamus totam voluptatem soluta.Cupiditate minima, molestiae ut in consequuntur, reiciendis alias, quidem tempore exercitationem eum fugiat ea!
+                  This is a learning management system merged with a real-time messaging system. Your class or team can keep track of each other and the notes, coursework, reference materials and tools to use. 
               </p> 
               <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.Ducimus a animi, odit accusamus totam voluptatem soluta.Cupiditate minima, molestiae ut in consequuntur, reiciendis alias, quidem tempore exercitationem eum fugiat ea!
+                  A constant flow of conversation, ideas, progress reports, and work. 
               </p> 
               <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.Ducimus a animi, odit accusamus totam voluptatem soluta.Cupiditate minima, molestiae ut in consequuntur, reiciendis alias, quidem tempore exercitationem eum fugiat ea!
+                  Virtual classrooms and on-site classes are both enhanced by the ease of communication.
               </p> 
             </article>
             <section id="landing-footer1">

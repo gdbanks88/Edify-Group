@@ -1,4 +1,5 @@
 import React from 'react';
+import '../CSS/spiderman.css';
 
 const SpiderMan = () => (
     <div>
